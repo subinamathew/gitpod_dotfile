@@ -1,0 +1,3 @@
+alias killall='docker kill  $(docker ps -q)'
+alias removealli='docker rmi $(docker images -q)'
+alias removeallc='docker rm  $(docker ps -a -q)'
