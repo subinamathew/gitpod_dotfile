@@ -1,0 +1,1 @@
+alias http='python -m http.server 35571'
